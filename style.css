@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(5, 5, 5);
+}
+h1{
+    color: red;
+    font-size: 90;
+    text-shadow: 2px 2px 1px white;
+    font-family: fantasy;
+}
+p{
+    color: red;
+    font-size: 70px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 3px white;
+}
+button{
+    padding: 20px 7px;
+    border: none;
+    border-radius: 6%;
+    background-color: black;
+    transition: background-color 5s;
+    font-family: fantasy;
+    border: 1px dashed white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(255, 2, 2);
+    color:black ;       
+}
